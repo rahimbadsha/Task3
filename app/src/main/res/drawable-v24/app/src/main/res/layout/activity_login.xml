@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/app_background"
+	tools:context=".LoginActivity">
+	
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/image_one_guideline"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		app:layout_constraintGuide_percent="0.3"/>
+	
+	<androidx.appcompat.widget.AppCompatImageView
+		android:id="@+id/iv_one"
+		android:layout_width="90dp"
+		android:layout_height="90dp"
+		android:src="@drawable/arrow"
+		app:layout_constraintStart_toEndOf="@id/image_one_guideline"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="20dp"
+		/>
+	
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/image_two_guideline"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		app:layout_constraintGuide_percent="0.2"/>
+	
+	<androidx.appcompat.widget.AppCompatImageView
+		android:id="@+id/iv_two"
+		android:layout_width="90dp"
+		android:layout_height="90dp"
+		android:src="@drawable/gmail"
+		app:layout_constraintTop_toBottomOf="@id/image_two_guideline"
+		app:layout_constraintStart_toEndOf="@id/iv_one"/>
+	
+	<androidx.appcompat.widget.AppCompatImageView
+		android:id="@+id/iv_three"
+		android:layout_width="90dp"
+		android:layout_height="90dp"
+		app:layout_constraintTop_toBottomOf="@id/iv_two"
+		app:layout_constraintStart_toEndOf="@id/iv_two"
+		android:src="@drawable/man"
+		/>
+	
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/input_guideline"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		app:layout_constraintGuide_percent="0.5"/>
+	
+	<androidx.appcompat.widget.AppCompatEditText
+		android:id="@+id/et_login_email"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="@android:color/white"
+		android:inputType="textEmailAddress"
+		android:hint="Email"
+		app:layout_constraintTop_toBottomOf="@id/input_guideline"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:textColorHint="@android:color/white"
+		android:ems="10"
+		android:padding="15dp"
+		android:drawableStart="@drawable/ic_mail_black_24dp"
+		android:drawablePadding="5dp"
+		android:background="@drawable/profile_input_background"/>
+	
+	<androidx.appcompat.widget.AppCompatEditText
+		android:id="@+id/et_login_password"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:textColor="@android:color/white"
+		android:inputType="textPassword"
+		android:hint="password"
+		android:ems="10"
+		android:textColorHint="@android:color/white"
+		android:padding="15dp"
+		android:drawableStart="@drawable/ic_lock_black_24dp"
+		android:drawablePadding="5dp"
+		android:background="@drawable/profile_input_background"
+		app:layout_constraintTop_toBottomOf="@+id/et_login_email"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:layout_marginTop="16dp"
+		/>
+	
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/button_login"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:text="Login"
+		android:padding="10dp"
+		android:textSize="20sp"
+		android:textColor="@android:color/white"
+		android:background="@color/colorPrimary"
+		app:layout_constraintTop_toBottomOf="@+id/et_login_password"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:layout_marginTop="20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

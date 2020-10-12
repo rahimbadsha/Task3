@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">SecondClass</string>
+	<string name="name_field_label">Enter your name</string>
+	<string name="name_in_english_language">Name in English language</string>
+	<string name="submit_button_text">Submit</string>
+	<string name="login_email">Email</string>
+	<string name="profile_name_label">Name: </string>
+	<string name="profile_name_hint">Enter your name</string>
+	<string name="profile_email_label">Email: </string>
+	<string name="profile_email_hint">Enter your email address</string>
+	<string name="profile_age_label">Age: </string>
+	<string name="profile_age_hint">Enter your age as integer</string>
+	<string name="profile_phone_hint">Only Phone Number</string>
+	<string name="profile_phone_label">Phone: </string>
+	<string name="profile_bodyweighte_hint">Your body weight</string>
+	<string name="profile_bodyweight_label">Body Weight: </string>
+	<string name="profile_save_button">Save</string>
+</resources>

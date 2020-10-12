@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:app = "http://schemas.android.com/apk/res-auto"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"
+	android:padding="25dp">
+	
+	<TextView
+		android:id="@+id/tv_dialog_title"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:text="@string/pass_dialog_title"
+		android:textStyle="bold"
+		android:textSize="25sp"
+		android:textColor="@color/colorPrimary"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+	
+	<androidx.appcompat.widget.AppCompatEditText
+		android:id = "@+id/et_dialog_pass"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		app:layout_constraintTop_toBottomOf = "@+id/tv_dialog_title"
+		app:layout_constraintStart_toStartOf = "@id/tv_dialog_title"
+		android:hint = "@string/register_pass_hint"
+		android:layout_marginTop = "20dp"
+		android:textColorHint="@android:color/black"
+		android:drawableStart="@drawable/lock"
+		android:drawablePadding="5dp"
+		android:textColor="@android:color/black"
+		android:backgroundTint="@android:color/black"
+		android:inputType = "textPassword" />
+	
+	
+	<androidx.appcompat.widget.AppCompatEditText
+		android:id = "@+id/et_dialog_repeatPass"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		app:layout_constraintTop_toBottomOf = "@+id/et_dialog_pass"
+		app:layout_constraintStart_toStartOf = "@id/et_dialog_pass"
+		android:hint = "@string/register_repeat_pass_hint"
+		android:layout_marginTop = "20dp"
+		android:textColorHint="@android:color/black"
+		android:drawableStart="@drawable/lock"
+		android:drawablePadding="5dp"
+		android:textColor="@android:color/black"
+		android:backgroundTint="@android:color/black"
+		android:inputType = "textPassword" />
+	
+	<androidx.appcompat.widget.AppCompatButton
+		android:id = "@+id/button_pass_update"
+		android:layout_width = "200dp"
+		android:layout_height = "wrap_content"
+		app:layout_constraintTop_toBottomOf = "@id/et_dialog_repeatPass"
+		app:layout_constraintStart_toStartOf = "parent"
+		app:layout_constraintEnd_toEndOf = "parent"
+		android:text = "@string/dialog_button_text1"
+		android:padding="10dp"
+		android:textSize="20sp"
+		android:textColor="@android:color/white"
+		android:background="@color/colorPrimary"
+		android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

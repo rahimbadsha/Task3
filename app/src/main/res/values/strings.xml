@@ -1,0 +1,23 @@
+<resources>
+	<string name = "app_name">Task3</string>
+	<string name = "profile_name_label">Name: John Doe</string>
+	<string name = "profile_phone">0171716258895</string>
+	<string name = "profile_email">john@gmail.com</string>
+	<string name = "profile_button_text_URL">Open My Website</string>
+	<string name = "profile_button_text_pass">Update Password</string>
+	<string name = "profile_button_edit_profile">Edit Profile</string>
+	<string name = "register_name_hint">Name</string>
+	<string name = "register_phone_hint">Phone</string>
+	<string name = "register_email_hint">Email</string>
+	<string name = "register_pass_hint">Password</string>
+	<string name = "register_repeat_pass_hint">Repeat Password</string>
+	<string name = "register_web_url">Web URL</string>
+	<string name = "register_button_text1">Register</string>
+	<string name = "edit_button_text1">Edit Now!</string>
+	<string name = "pass_dialog_title">Update Password!</string>
+	<string name = "dialog_button_text1">Update</string>
+	<string name = "profile_button_logout">Logout</string>
+	<string name = "button_login_text">Login</string>
+	<string name = "register_text">Register</string>
+	<string name = "no_account">No Account?</string>
+</resources>

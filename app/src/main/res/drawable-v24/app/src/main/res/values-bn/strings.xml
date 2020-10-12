@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">এপ নেইম</string>
+	<string name="name_field_label">আপনার নাম লিখুন</string>
+	<string name="name_in_english_language">ইংরেজিতে নাম লিখুন</string>
+	<string name="submit_button_text">Submit</string>
+	<string name="login_email">Email</string>
+	<string name="profile_name_label">name</string>
+	<string name="profile_name_hint">Email</string>
+	<string name="profile_email_label">profile_email_label</string>
+	<string name="profile_email_hint">Enter your email address</string>
+	<string name="profile_age_label">Age: </string>
+	<string name="profile_age_hint">Enter your age as integer</string>
+	<string name="profile_phone_hint">Only Phone Number</string>
+	<string name="profile_phone_label">Phone: </string>
+	<string name="profile_bodyweighte_hint">Your body weight</string>
+	<string name="profile_bodyweight_label">Body Weight: </string>
+	<string name="profile_save_button">Save</string>
+</resources>
